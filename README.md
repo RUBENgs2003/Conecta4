@@ -4,8 +4,8 @@ Connect 4 fully developed by me. Available to play against the AI (1 player on l
 *** REQUIREMENTS ***
 
 1.- You need to have NODEjs installed in your computer.
-2.- You need to have express installed in your computer: You can install this with command -> npm install express
-3.- You need to have socketio installed in your computer: You can install this with command -> npm install socketio
+2.- You need to have express installed in your computer and added on the 'online' folder: You can install this with command -> npm install express
+3.- You need to have socketio installed in your computer and added on the 'online' folder: You can install this with command -> npm install socketio
 
 *** HOW TO PLAY *** 
 
