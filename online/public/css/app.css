@@ -1,0 +1,123 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.tablero{
+    border: 4px solid #000;
+    position: relative;
+    background-color: rgb(46, 45, 145);
+    width: 50%;
+    height: 75%;
+    text-align: center;
+    left: 25%;
+    top: 5%;
+    display: inline-block;
+}
+.circulo{
+    background-color: #fff;
+    border-radius: 100%;
+    display: block;
+    border: 2px solid rgb(29, 25, 77);
+}
+.fila{
+    display: block;
+    text-align: center;
+}
+.columna{
+    display: inline-block;
+}
+.container-mano{
+    position: relative;
+    height: 10%;
+    left: 25%;
+    top: 5%;
+    border: 4px solid #000;
+}
+.arrow-img{
+    position: absolute;
+}
+.jugador{
+    background-color: yellow;
+}
+.ia{
+    background-color: red;
+}
+.debug{
+    background-color: grey;
+}
+#chat{
+    border: 4px solid #000;
+    position: relative;
+    background-color: rgb(46, 45, 145);
+    width: 20%;
+    height: 86%;
+    text-align: center;
+    left: 77%;
+    top: -82%;
+}
+#mensaje{
+    position: relative;
+    width: 97%;
+    top: 0%;
+    height: 25px;
+    display: block;
+}
+.outputs{
+    position: relative;
+    height: 95%;
+    top: 0%;
+    display: block;
+    overflow-y: auto;
+}
+.output{
+    width: 99%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    border-bottom: 2px solid yellow;
+}
+.modal-loading {
+    display:    none;
+    position:   fixed;
+    z-index:    1000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: rgba( 255, 255, 255, .8 ) 
+                url('http://i.stack.imgur.com/FhHRx.gif') 
+                50% 50% 
+                no-repeat;
+}
+
+/* When the body has the loading class, we turn
+   the scrollbar off with overflow:hidden */
+body.loading .modal-loading {
+    overflow: hidden;   
+}
+
+/* Anytime the body has the loading class, our
+   modal element will be visible */
+body.loading .modal-loading {
+    display: block;
+}
+.text-loading{
+    position: relative;
+    top: 55%;
+    font-weight: bold;
+    text-align: center;
+}
+
+.turno{
+    position: relative;
+    left: 5%;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    background-color: grey;
+    top: -169%;
+    font-size: 20px;
+    font-weight: bold;
+}
